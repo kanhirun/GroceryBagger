@@ -9,7 +9,7 @@ class TestGroceryBagger(TestCase):
   def test1(self):
     groceryBagger = GroceryBagger()
 
-    strength  = 0
+    strength  = 2
     itemTypes = ["DAIRY", "DAIRY", "PRODUCE", "PRODUCE", "PRODUCE", "MEAT"]
 
     minimumBags = groceryBagger.minimumBags(strength, itemTypes)
